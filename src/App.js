@@ -54,7 +54,7 @@ function App() {
         variant="h1">
         ToDo
       </Typography>
-      <TodoForm addTodo={addTodo} />
+      <TodoForm AddTodo={addTodo} />
       <TodoList
         todos={todos}
         removeTodo={removeTodo}
